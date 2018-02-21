@@ -17,8 +17,6 @@
  <!-- SIGN UP
     =========================================-->
     <section class="container mt-5">
-      <p>please work now</p>
-      <p>what's happening here?</p>
       <div class="row">
           <div class="widget-area col text-center">
            <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
