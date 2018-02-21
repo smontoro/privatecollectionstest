@@ -17,7 +17,7 @@
  <!-- SIGN UP
     =========================================-->
     <section class="container mt-5">
-      <p>please work</p>
+      <p>please work now</p>
       <p>what's happening here?</p>
       <div class="row">
           <div class="widget-area col text-center">
