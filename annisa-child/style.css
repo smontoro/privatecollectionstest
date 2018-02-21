@@ -1,0 +1,220 @@
+/*
+
+ Theme Name:   Anissa Child
+
+ Theme URI:    http://example.com/anissa-child/
+
+ Description:  Anissa Child - Anissa
+
+ Author:       Sarah Montoro
+
+ Author URI:   http://example.com
+
+ Template:     anissa
+
+ Version:      1.0.0
+
+ Text Domain:  anissa-child
+
+*/
+
+/*@import url("../anissa-child/style.css");*/
+
+/** BASE STYLES
+================================ **/
+.site-content {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 22px;
+	font-style: italic;
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 30px;
+	}
+}
+
+.btn {
+	font-family: 'Playfair Display', serif;
+	text-transform: none;
+}
+
+
+/** HEADER
+================================ **/
+.site-title, .site-title a {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-style: normal;
+}
+
+.site-description {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+@media (min-width: 992px) {
+	.site-title, .site-title a {
+		font-size: 75px;
+	}
+}
+
+
+/** HOME
+================================ **/
+.learn-more-button {
+	width: 150px;
+	padding: 15px;
+	font-size: 16px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #748982;
+	color: #fff;
+	margin: auto;
+}
+
+.ticket-button {
+	width: 200px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	background: #748982;
+	color: #fff;
+	line-height: 60px;
+}
+
+
+/**ABOUT
+================================ **/
+.committee, .host-committee, .board {
+	color: black;
+	font-size: 15px;
+	border: 2px solid #343434;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.committee section p {
+	font-size: 12px;
+}
+
+aside h5 {
+	font-size: 15px;	
+	font-weight: 700;	
+}
+
+@media (min-width: 768px) {
+	.about-aside {
+		margin-top: 100px;
+		margin-left: 75px;
+	}
+	.committee, .host-committee, .board {
+		font-size: 13px;
+	}
+	aside h5 {
+		font-size: 12px;
+	}
+}
+
+
+/** SPONSORSHIPS 
+================================ **/
+.sponsor-aside {
+	color: black;
+	font-size: 15px;
+	padding: 10px;
+	border: 2px solid #343434;
+	margin: 20px;
+}
+
+@media (min-width: 768px){
+	.sponsors {
+		padding-bottom: 100px;
+	}
+	.sponsor-aside  {
+		margin: 100px 0 0 75px;
+	
+	}
+}
+
+
+/**COLLECTIONS
+================================ **/
+.collection h5 {
+	text-transform: uppercase;
+}
+
+.collection-intro {
+	width: 70%;
+}
+
+
+/** FOOTER 
+================================ **/
+#colophon {
+	background-color: #E9EBEE;
+}
+
+.wpforms-title {
+	font-family: 'Playfair Display', serif;
+}
+
+#wpforms-177-field_1 {
+	width: 60%;
+	display: inline;
+	text-align: center;
+}
+
+button.wpforms-submit {
+    background-color: transparent !important;
+    border: 1px solid #343a40 !important;
+    color: #343a40 !important;
+    border-radius: .25rem !important;
+    font-family: "Playfair Display", serif !important;
+   	display: inline-block !important;
+   	width: 150px !important;
+   	font-weight: 400 !important;
+   	font-size: 1rem !important;
+   	letter-spacing: 2.5px !important;
+}
+
+.wpforms-field-label {
+	display: none !important;
+}
+
+.wpforms-field-html {
+	display: inline-block !important;
+}
+
+.footer-hr {
+	width: 50%;
+}
+
+#footerSocial {
+	padding: 0;
+	margin: 0;
+}
+
+#footerSocial li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.site-footer {
+	text-align: center;
+}
+
+.custom-html-widget p{
+	font-size: 16px;
+}
+
+
+
+
