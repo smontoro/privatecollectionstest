@@ -13,27 +13,40 @@
 get_header(); ?>
 
 <?php while ( have_posts() ) : the_post();
-	$donate_title= get_field('donate_title');
-	$donate_info= get_field('donate_info');
-	$ticket_html= get_field('ticket_html');
+	$donate_title = get_field('donate_title');
+	$donate_info = get_field('donate_info');
+	$masterpiece_title = get_field('masterpiece_title');
+	$masterpiece_html = get_field('masterpiece_html');
+	$premier_title = get_field('premier_title');
+	$premier_html = get_field('premier_html');
 	?>
 
 <div class="container my-5">
 
 <!-- TICKETS
 ============================ -->
-	<div class="row mb-5">
+	<section>
 		<div class="col-sm-9 text-center mx-auto">
-			<section>
+			<div>
 				<h1 class="text-center"><?php echo the_title(); ?></h1>
 				<p><?php echo the_content(); ?></p>
-			</section>
+			</div>
 
-			<section class="tickets-html">
-				<?php echo $ticket_html; ?>
-			</section>
+			<div>
+				<div class="my-5">
+					<h3><?php echo $masterpiece_title; ?></h3>
+					<?php echo $masterpiece_html; ?>	
+				</div>
+
+				<hr>
+
+				<div class="my-5">
+					<h3><?php echo $premier_title; ?></h3>
+					<?php echo $premier_html; ?>
+				</div>
+			</div>	
 		</div>
-	</div><!--row-->
+	</section><!--row-->
 
 		<hr>
 
