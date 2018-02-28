@@ -26,7 +26,6 @@ get_header(); ?>
 <!-- TICKETS
 ============================ -->
 	<section>
-		this is a test
 		<div class="col-sm-9 text-center mx-auto">
 			<div>
 				<h1 class="text-center"><?php echo the_title(); ?></h1>
